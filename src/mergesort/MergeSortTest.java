@@ -1,11 +1,12 @@
-package stablematching;
+package mergesort;
 
 import static org.junit.Assert.*;
-
 
 import java.util.LinkedList;
 
 import org.junit.Test;
+
+import people.Person;
 
 
 public class MergeSortTest {

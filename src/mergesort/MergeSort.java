@@ -1,6 +1,8 @@
-package stablematching;
+package mergesort;
 
 import java.util.LinkedList;
+
+import people.Person;
 
 public class MergeSort {
 	

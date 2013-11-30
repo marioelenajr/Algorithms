@@ -1,4 +1,5 @@
-package stablematching;
+package people;
+
 
  class Couple{
 	private Person male;

@@ -1,19 +1,18 @@
-package stablematching;
+package people;
 
 import java.util.LinkedList;
 
 
 
-class Person{
+public class Person{
 	 
 	final private String sex;
 	private int rank;
-	final String name;
+	final private String name;
 	private boolean engaged = false;
-	//private Person proposal;
 	private LinkedList<Person> desiredList;
 	
-	Person(String sex, LinkedList<Person> desiredList, String name){
+	public Person(String sex, LinkedList<Person> desiredList, String name){
 		 this.sex = sex;
 		 this.name=name;
 		 this.desiredList = desiredList;
